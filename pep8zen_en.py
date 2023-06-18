@@ -4,24 +4,16 @@ PEP8 Style Guide Examples
 
 # Introduction
 """
-In the realm of code,
-PEP8 serves as a wise guide,
-Bringing clarity.
-
-Readability reigns,
-Consistency is the key,
-Beauty in the code.
+In code's sacred realm,
+PEP8's guide, a tranquil helm,
+Clarity takes the helm.
 """
 
-# A Foolish Consistency is the Hobgoblin of Little Minds
+# Consistency is Key
 """
-Consistency rules,
-Guiding us through code's maze,
-Hobgoblin, beware!
-
-Be consistent, friend,
-In style and in spirit,
-Clarity shall bloom.
+Consistency's plea,
+Guiding us to harmony,
+Chaos we must flee.
 """
 
 # Code Layout
@@ -29,31 +21,31 @@ Clarity shall bloom.
 # Indentation
 def my_function():
     """
-    Indentation's dance,
-    Graceful alignment of code,
-    Harmony unfolds.
+    Indentation dance,
+    Aligned in elegant trance,
+    Harmony's true stance.
     """
 
 def another_function():
     """
-    Lines bow respectfully,
-    With indents as their chorus,
-    A symphony plays.
+    Lines gently bow,
+    Indents, a graceful vow,
+    A symphony, here and now.
     """
 
 # Tabs or Spaces?
 def my_function():
     """
-    Spaces, not tabs, rule,
-    They align the code's rhythm,
-    A visual delight.
+    Spaces reign supreme,
+    Code's rhythm, a gentle theme,
+    Harmony, like a dream.
     """
 
 def another_function():
     """
-    Spaces, soft whispers,
-    Guiding eyes through code's passages,
-    Order in chaos.
+    Spaces, whispers so soft,
+    Guiding code, aloft,
+    Chaos they set aloft.
     """
 
 # Maximum Line Length
@@ -62,28 +54,28 @@ very_long_variable_name = some_function(
 )
 
 long_string = (
-    "Lines stretching far,
-    The code's narrative unfolds,
-    Split for clarity.
-    ")
+    "Lines stretch, near and far, "
+    "Code's story, like a shining star, "
+    "Clarity, no matter where you are."
+    )
 
 # Blank Lines
 def my_function():
     """
     Code takes a breath,
-    Blank lines create pauses, peace,
-    Balance in motion.
+    Blank lines, peacefulness, no death,
+    Balance, like nature's breadth.
     """
 
 def another_function():
     """
-    Silence in between,
-    Lines rest in the white spaces,
-    A symphony's pause.
+    Silence in the space,
+    Lines rest, a peaceful embrace,
+    A pause, a moment's grace.
     """
 
 # Source File Encoding
-# No specific code example, only a mention of encoding, ensuring that the file speaks the same language as your code.
+# No specific code example, just a mention of encoding, ensuring the file speaks the same language as your code.
 
 # Imports
 import module1
@@ -95,12 +87,12 @@ import module5
 # Whitespace
 
 # Pet Peeves
-# No specific code example, only mentions of avoiding extraneous whitespace and blank lines at the end of files.
+# No specific code example, just mentions of avoiding extra whitespace and trailing blank lines.
 
 # Other Recommendations
 x = 5  # Spaces keep order,
-        Between tokens, in control,
-        Silence in the gaps.
+        # Tokens aligned, harmony's border,
+        # Gaps, where beauty can wander.
 
 y = some_function(argument1, argument2)
 
@@ -110,63 +102,66 @@ z = another_function(argument1, argument2)
 # Comments
 
 # Inline Comments
-x = x + 1  # Increment x,
-            A code annotation,
-            Whispers of change.
+x = x + 1  # Increment x, a wise notation,
+            # Change's whispers, no deviation,
+            # Clarity, in each translation.
 
-y = y - 1  # Decrement y,
-            A note to the reader,
-            The story unfolds.
+y = y - 1  # Decrement y, reader's key,
+            # Comment's magic, new eyes to see,
+            # Code's story, clear and free.
 
 # Block Comments
 """
-A tale untold yet,
-Whispered secrets in plain sight,
-Guiding the lost souls.
+Whispered tales untold,
+In code's crevices, they unfold,
+Guiding lost souls, bold.
 """
 x = 5
 y = 10
 
 """
-A story within,
-Lines weave a tapestry, code,
-Wisdom concealed.
+Inner secrets shared,
+Code's masterpiece declared,
+Wisdom unimpaired.
 """
 z = x + y
 
 # Documentation Strings
 def my_function():
     """
-    Seekers of knowledge,
-    Docstrings, your guiding light,
-    Secrets now revealed.
+    Seekers find solace,
+    Docstrings illuminate, grace,
+    Secrets revealed, embrace.
     """
 
 def another_function():
     """
-    A script's enigma,
-    Docstrings, your voice so clear,
-    Clarity bestowed.
+    Enigmatic script,
+    Docstrings, clear and adept,
+    Clarity, never inept.
     """
 
 # Naming Conventions
 
 # Overriding Principle
-# No specific code example, an eternal reminder to choose names that resonate with clarity and understanding.
+# No specific code example, a reminder to choose names with clarity, a vital essence.
 
 # Descriptive: Naming Styles
-# No specific code example, the journey towards meaningful and descriptive names begins within your heart.
+# No specific code example, meaningful names, the heart's mile.
 
 # Prescriptive: Naming Conventions
 
 ## Names to Avoid
-# No specific code example, whispers of caution, urging you to shun the forbidden names of obscurity and ambiguity.
+# No specific code example, caution's plea,
+# Obscurity's ban, clarity's decree.
 
 ## ASCII Compatibility
-# No specific code example, reminding you to embrace the ancient tongue of ASCII for universal harmony.
+# No specific code example, embrace ASCII's grace,
+# Universal harmony, code's vibrant embrace.
 
 ## Package and Module Names
-# No specific code example, guidance to use lowercase with underscores, forging paths that the codebase can traverse.
+# No specific code example, lowercase with underscore's bliss,
+# Forging paths, code's eternal kiss.
 
 ## Class Names
 class MyClass:
@@ -179,12 +174,14 @@ class AnotherClass:
 try:
     # code that may raise an exception
 except ValueError as e:
-    # bravely capturing the exception, giving it a name that resonates with its identity
+    # Exception named, its power tamed,
+    # With understanding, chaos tamed.
 
 try:
     # code that may raise another exception
 except KeyError as e:
-    # fearlessly conquering yet another exception, armed with a name that reveals its essence
+    # Another exception subdued,
+    # Named, its identity renewed.
 
 ## Global Variable Names
 GLOBAL_CONSTANT = 42
@@ -208,65 +205,67 @@ def another_function():
 def my_function(arg1, arg2=None):
     """
     Default paths unfold,
-    Flexibility, your shield,
-    Arguments embraced.
+    Flexibility, code's stronghold,
+    Harmony, stories untold.
     """
     if arg2 is None:
         arg2 = []
 
 def another_function(arg1, arg2=True, arg3=10):
     """
-    A realm of options,
-    Default values guide the way,
-    Versatility.
+    A world of choices,
+    Default values, diverse voices,
+    Versatility rejoices.
     """
     pass
 
 # Keyword Arguments and Positional Arguments
 def my_function(arg1, arg2, *args, **kwargs):
     """
-    Dance of arguments,
-    Positional and keywords blend,
-    Harmony in calling.
+    Arguments in dance,
+    Positional and keywords, code's romance,
+    Harmony in every chance.
     """
     pass
 
 def another_function(arg1, arg2, *args, **kwargs):
     """
-    A symphony plays,
-    The conductor, your function,
-    Positional and keywords unite.
+    A symphony, united calls,
+    Positional and keywords, as the light falls,
+    Flowing river, code's grand halls.
     """
     pass
 
 # Function and Method Decorators
-# No specific code example, the realm of decorators beckons, where functions and methods acquire new powers.
+# No specific code example, decorators' realm,
+# Magic bestowed, code's sacred helm.
 
 # Intermezzo: Coding Style
-# No specific code example, a moment of respite, contemplating the grand tapestry of code style.
+# No specific code example, a moment to pause,
+# Reflect on code's grandiose applause.
 
 ## Guidelines & Best Practices
 
 ### Use of the Backslash
 my_string = (
-    "Across lines it flows,
-    The backslash binds as one,
-    Code reads like verse.
-    ")
+    "Lines gracefully flow, "
+    "Backslash binds, code's enchanting glow, "
+    "Verse-like beauty, a rhythm to bestow."
+    )
 
 another_string = (
-    "Lines connected,
-    The backslash creates a bridge,
-    A story unfolds.
-    ")
+    "Lines connected, like a pathway defined, "
+    "Backslash, the bridge, forever entwined, "
+    "A story unfolds, a tale for the mind."
+    )
 
 ### When to Use Trailing Commas
 my_list = [
     "item1",
     "item2",
-    "item3",  # Trailing comma, a gentle touch,
-                Readability in lists,
-                Growth without pain.
+    "item3",  # Trailing comma's gentle touch,
+                # Readability's flourish, it means so much,
+                # Growth, painless and such.
 ]
 
 another_list = [
@@ -308,14 +307,14 @@ class AnotherClass:
 # Conclusion
 """
 Embrace PEP8's grace,
-Code as a work of pure art,
-Beauty in each line.
+Code, an art form's embrace,
+Beauty in each trace.
 """
 
 # References
 """
-Seek further wisdom,
-Guidance from sages and more,
-Code's journey goes on.
+Seek wisdom's sacred well,
+Sages' guidance, let it dwell,
+Code's journey, onward, swell.
 """
 
