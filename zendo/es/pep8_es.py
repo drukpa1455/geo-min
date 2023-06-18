@@ -5,8 +5,8 @@ PEP8 Guía de Estilo Ejemplos
 # Introducción
 """
 En el reino del código, vivimos,
-PEP8, guía sabia, seguida,
-Claridad es el camino elegido.
+PEP8, guía sabia, seguimos,
+Claridad es el camino que elegimos.
 """
 
 # La Consistencia es Clave
