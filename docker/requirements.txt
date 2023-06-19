@@ -1,5 +1,9 @@
+matplotlib
 geopandas
 rasterio
 xarray
 rioxarray
+fiona
+shapely
+pyproj
 pystac-client
